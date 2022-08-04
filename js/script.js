@@ -90,7 +90,17 @@ console.log(`la ventaa arrojo ${estado}`);
 
         case "division":
             let div =  parseInt(num1) / parseInt(num2);
-            alert(`La division es: ${div}`);  
+            alert(`La division es: ${div.toFixed(2)}`);  
+        break;
+
+        case "potencia":
+            let pot =  parseInt(num1) ** parseInt(num2);
+            alert(`La potencia es: ${pot.toFixed(2)}`);  
+        break;
+
+        case "raiz":
+            let rai =  Math.sqrt(num1);
+            alert(`La raiz es: ${rai.toFixed(2)}`);  
         break;
     
         default:
