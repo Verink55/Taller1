@@ -94,7 +94,7 @@ console.log(`la ventaa arrojo ${estado}`);
         break;
 
         case "potencia":
-            let pot =  parseInt(num1) ** parseInt(num2);
+            let pot =  Math.pow(parseInt(num1),parseInt(num2))
             alert(`La potencia es: ${pot.toFixed(2)}`);  
         break;
 
