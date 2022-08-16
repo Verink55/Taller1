@@ -6,6 +6,3 @@ for( i = 0; i < 6; i++){
     alert(`Hola soy veronica`);
 }
 
-do{
-
-}
