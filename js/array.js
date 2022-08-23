@@ -30,7 +30,7 @@ while (seguir == true) {
     aprendices.push(prompt("Ingrese nombre aprendiz"));
 
     seguir = confirm ("Desea ingresar otro aprendiz?");
-}
+
     console.log(`Los aprendices son ${aprendices}`);
 
     let filtro = aprendices.filter(aprendices => aprendices == "Veronica");// generar un nuvo areglo  
@@ -50,3 +50,4 @@ while (seguir == true) {
         return `${el.primernombre} ${el.primerapellido}`
     })
     console.log(nombrecompleto);
+}

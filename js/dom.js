@@ -14,7 +14,9 @@ mi.style.setProperty("background", "#0DE687");
 const letra = document.querySelector("#features");
  let text= `<p> Las tortuguitas son bonitas </p>
             <p> Se puede acceder y modificar </p>`
-// letra.textContent = text;
+// letra.textContent = text; 
+//TAREA
+//proponer la interfax de presentacion de ejecicios, en donde se deben ver cada ejercicio realizado con un boton llamado consola que lleve al cada uno de los ejercicio empezando con la carculadora
  letra.innerHTML = text;
 
  const img = document.createElement("img");
