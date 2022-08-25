@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/cal-estilos.css">
+    <script src="https://kit.fontawesome.com/6fb0322162.js" crossorigin="anonymous"></script>
     <title>Calculadora</title>
 </head>
 <body>
@@ -31,7 +32,18 @@
             </select>
         </div>
         <br>
-            <button type="submit" class="btn-azul" onclick="calcular()">Calcular</button>
+        <div id="ops" style="background-color: black;">
+            <button id="suma">Suma</button>
+            <button id="resta">Resta</button>
+        </div>
+        <div id="respuesta">
+           
+        </div>
+            <button type="submit" class="btn-azul" id="btn-calcular">Calcular</button>
+
+            
+
+        
     </form>
     <script src="js/calculadora.js"></script>
 </body>

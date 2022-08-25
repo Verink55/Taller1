@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+.form-ejercicios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    border-radius: 5px;
+    border: none;
+    margin: 1rem;
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: #e67e22;
+}
+.correcto{
+    font-size: 2rem;
+    color: #1abc9c;
+    visibility: visible;
+    opacity: 1;
+}
+.incorrecto{
+    font-size: 2rem;
+    color: #e74c3c;
+    visibility: visible;
+    opacity: 1;
+}
+#opciones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}

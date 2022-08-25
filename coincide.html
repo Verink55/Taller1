@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/coi-estilos.css">
+    <script src="https://kit.fontawesome.com/6fb0322162.js" crossorigin="anonymous"></script>
+    <title>Coincide</title>
+</head>
+<body>
+    <h1>Coincide</h1>
+    <form class="form-ejercicios">
+
+        <div class="group-form">
+            <label>Nombre:</label>
+            <select class="form-select" id="nombre">
+                <option selected>Seleccione un nombre</option>
+                <option value="1">Yaneth</option>
+                <option value="2">Carolina</option>
+                <option value="3">Adriana</option>
+                <option value="4">Jenifer</option>
+                <option value="5">Sandra</option>
+                <option value="6">Andrea</option>
+                <option value="7">Cristian</option>
+            </select>
+
+            <label>Apellido:</label>
+            <select class="form-select" id="apellido">
+                <option selected>Seleccione un apellido</option>
+                <option value="1">Castillo</option>
+                <option value="2">Forero</option>
+                <option value="3">Duarte</option>
+                <option value="4">Fajardo</option>
+                <option value="5">Rueda</option>
+                <option value="6">Ramos</option>
+                <option value="7">Buitrago</option>
+            </select>
+
+            <label>Materia:</label>
+            <select class="form-select" id="materia">
+                <option selected>Seleccione una materia</option>
+                <option value="1">Gestion Ambiental</option>
+                <option value="2">Proyecto</option>
+                <option value="3">Diseño FrontEnd</option>
+                <option value="4">Javascript </option>
+                <option value="5">Base de Datos</option>
+                <option value="6">Promover</option>
+                <option value="7">PHP</option>
+            </select>
+        </div>
+        <br>
+            <button type="submit" class="btn-azul" id="coincidir">Coincidir</button>
+
+        <div id="respuesta">
+        
+        </div>
+    </form>
+    <script src="js/coincide.js"></script>
+</body>
+</html>

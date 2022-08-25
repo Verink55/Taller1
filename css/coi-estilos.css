@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+input, select{
+    border-radius: 5px;
+    border: none;
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    margin: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: #9b59b6;
+}
+label{
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+.form-ejercicios{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#numero{
+    display: flex;
+    justify-content: center;
+}
