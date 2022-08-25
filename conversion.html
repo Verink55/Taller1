@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/con-estilos.css">
+    <title>Conversion</title>
+</head>
+<body>
+    <h1>Conversion</h1>
+    <form class="form-ejercicios">
+            <div class = "groups-form">
+                <label for="num1" class="form-label">Ingresa un numero</label>
+                <input type="number" class="form-control" id="num1">
+            </div>
+
+        <div class="group-form">
+            <label>Vas a convertir de:</label>
+            <select class="form-select" id="de">
+                <option selected>Seleccione una opcion</option>
+                <option value="1">Fahrenheit</option>
+                <option value="2">Celsius</option>
+                <option value="3">Kelvin</option>
+            </select>
+
+            <label>Deseas convertir a:</label>
+            <select class="form-select" id="a">
+                <option selected>Seleccione una opcion</option>
+                <option value="1">Fahrenheit</option>
+                <option value="2">Celsius</option>
+                <option value="3">Kelvin</option>
+            </select>
+        </div>
+        <br>
+            <button type="submit" class="btn-azul" onclick="calcular()">Calcular</button>
+    </form>
+    <script src="js/conversion.js"></script>
+</body>
+</html>
