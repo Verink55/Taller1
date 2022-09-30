@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    background: #2c3e50;
+}
+
+/*Estilos de formulario*/
+form{
+    width: 100%;
+    background: #9000009a;
+    padding: 30px;
+    margin: 50px auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    max-width: 47rem;
+    color: #ffffff;
+}
+
+.frm-input{
+    width: 100%;
+    min-height: 2.5rem;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.frm-input:focus{
+    outline: none;
+    border-color: #ce0000;
+    border-width: 3px;
+    border-style: solid;
+}
+
+#g-termino{
+    display: flex;
+    justify-content: center;
+}
+
+.frm-checkbox{
+    margin: 1rem;
+}
+
+.btn-enviar{
+    background: #b40000;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.btn-enviar:hover{
+    background: #ff0000;
+}
+
+.msn-error{
+    font-size: 20px;
+    color: #ffbb00;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.form-group{
+    margin: 0.5rem 0;
+    border-radius: 20px;
+    border: none;
+}
+
+label{
+    font-weight: 500;
+}
+
+.form-group-input{
+    position: relative;
+}
+
+.frm-icono{
+    position: absolute;
+    right: 1rem;
+    bottom: 2rem;
+    color:#900000;
+    z-index: 100;
+}
+
+.success .frm-icono{
+    color: #229e00;
+}
+
+.error .frm-icono{
+    color: #ffbb00;
+}
+
+.msn-error-visible{
+    visibility: visible;
+    opacity: 1;
+}
